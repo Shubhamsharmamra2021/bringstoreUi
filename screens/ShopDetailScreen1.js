@@ -1,12 +1,12 @@
 import React from 'react';
 import { Image, Text, View} from 'react-native';
- import FooterPolicy from '../components/policy';
-import MainButton from '../components/Button';
+ import MainButton from '../components/Button';
 import {styles} from '../css/style.js';
 import InputField from '../components/InputField';
 
 
-export default function ProfileName({navigation}) {
+export default function ShopDetailScreen1
+({navigation}) {
     return (
       <View style={styles.container} >
         <View style={styles.main}>
@@ -48,8 +48,7 @@ export default function ProfileName({navigation}) {
             
           </View>
         </View>
-        <FooterPolicy />
-      </View>
+       </View>
     );
 }
 

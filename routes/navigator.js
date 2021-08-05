@@ -16,8 +16,8 @@ export default function NavigationApp() {
   return (
 <NavigationContainer>
     <AppStack.Navigator screenOptions={{ headerShown: false }} >
-    <AppStack.Screen name="EmailScreen" component={EmailScreen}  options={{ title: 'Email' }}/>
     <AppStack.Screen name="MobileScreen" component={MobileScreen}  options={{ title: 'Mobile' }}/>
+    <AppStack.Screen name="EmailScreen" component={EmailScreen}  options={{ title: 'Email' }}/>
     <AppStack.Screen name="OtpScreen" component={OtpScreen}  options={{ title: 'OtpScreen' }}/>
     <AppStack.Screen name="ProfileNameScreen" component={ProfileNameScreen}  options={{ title: 'ProfileName' }}/>
     <AppStack.Screen name="ProfilePhotoScreen" component={ProfilePhotoScreen}  options={{ title: 'ProfilePhotoScreen' }}/>

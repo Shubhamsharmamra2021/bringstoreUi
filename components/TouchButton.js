@@ -9,7 +9,8 @@ export default function TouchButton(props) {
 
     return ( 
             <View style={{flexDirection:"row", marginLeft:0,}}>
-            <TouchableOpacity style={styles.mainbuttonMobile} onPress={() =>navigation.navigate('MobileScreen')}>
+            <TouchableOpacity style={styles.mainbuttonMobile} 
+            onPress={()=>navigation.navigate('MobileScreen')}>
                <View style={props.mobileactive}>
                 <Image
                   style={{width:22,height:32,borderRadius:1}}

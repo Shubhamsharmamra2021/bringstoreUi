@@ -6,9 +6,8 @@ export default function FooterPolicy({navigation}) {
     
     return (
         <View style={{   
-                         bottom: 10 ,
-                        top:"20%",
-                        marginLeft:50,
+                         bottom: 40 ,
+                         marginLeft:50,
                         marginRight:50
 
                     }}>
